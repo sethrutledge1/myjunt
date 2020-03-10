@@ -1,0 +1,200 @@
+*{
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+body {
+	background-color:#B9ABFC;
+	margin:0;
+	padding:0;
+}
+
+h1 {
+	color: black;
+	font-size: 70px;
+	font-weight:400;
+}
+
+h2 {
+	font-size: 55px;
+	font:Ubuntu;
+	letter-spacing: 8px;
+
+}
+h3 {
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-bottom:0;
+
+}
+
+h4 {
+	font-size: 25px;
+	font-weight: 400;
+}
+
+h5 {
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 8px;
+}
+
+h5.stroke {
+	color: white;
+	-webkit-text-stroke-width: 2px;
+  	-webkit-text-stroke-color: black;
+  	text-align: left;
+}
+
+h6 {
+	font-size: 50px;
+	margin:0 0 20px 0;
+	font-weight:300;
+
+
+}
+p{
+	color: black;
+	font-size:30px;
+	padding: 50px 50px 50px 0;
+}
+
+.intro {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0;
+	border-left: 5px solid white;
+	border-top: 5px solid white;
+	border-right: 5px solid white;
+}
+
+.first p {
+	margin: 0;
+	padding: 0;
+	line-height: 50px;
+}
+
+.intro h1 {
+	margin: 0 20px;
+}
+
+.first {
+	display: flex;
+	border-left: 5px solid white;
+	border-right: 5px solid white;
+	padding: 0 50px;
+}
+
+/* Albums Section */
+.second {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 50px;
+	border-left: 5px solid white;
+	border-right: 5px solid white;
+	border-bottom: 5px solid white;
+}
+
+.second h2 {
+	width: 100%;
+	text-align: left;
+	font-weight: 400;
+}
+
+.second div {
+	width: 45%;
+}
+.second div img {
+	width: 100%;
+}
+
+/* Songs Section */
+.third {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border: 5px solid white;
+	margin: 25px 0;
+}
+
+.third h2 {
+	width: 100%;
+	text-align: center;
+}
+
+.third div {
+	width: 40%
+}
+
+.third div img {
+	width: 100%
+}
+
+.third h4 {
+	margin: 50px 0;
+	text-align: left;
+	letter-spacing: 3px;
+	font-size: 28px;
+}
+
+
+
+.fourth {
+	background-image: url(images8.png);
+	background-size: cover;
+	padding:100px 0;
+	border-top: 5px solid white;
+	border-bottom: 5px solid white;
+}
+
+.tour-dates {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.tour-dates div {
+	width: 45%;
+
+}
+
+footer {
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 25px;
+}
+
+footer p {
+	color: white;
+	font-size: 14px;
+	margin: 0;
+
+}
+footer ul {
+	list-style: none;
+	display: flex;
+	align-items: flex-end;
+}
+
+footer img {
+	width: 30px;
+	margin-left: 10px;
+}
+.email {
+	background-color: black;
+	border: 1px solid white;
+	padding: 10px;
+	color: white;
+}
+.email-button {
+	background-color: white;
+	padding: 10px;
+	border-radius: 0;
+	border:1px solid white;
+}
+.email-button:hover {
+	background-color:#B9ABFC;
+}
